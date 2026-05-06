@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: bold;
+  background-color: #0f172a; /* Calm dark slate (slate-900), very comfortable for the eyes */
+  color: #f8fafc; /* light slate */
+}
